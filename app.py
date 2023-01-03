@@ -16,7 +16,7 @@ st.markdown('Use this Streamlit app to make your own scatterplot about Iris Flow
 
 # Import Data
 st.title("Iris flower Classifier") 
-Iris = pd.read_csv('C:/Users/Appu/Desktop/Streamlit Test/Best Code Streamlit/Z Test Programs/01. Pandas profiling/Iris.csv')
+Iris = pd.read_csv('Iris.csv')
 
 st.title('Pandas Profiling of Iris Dataset')
 Iris_profile = ProfileReport(Iris, explorative=True)
