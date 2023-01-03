@@ -1,0 +1,6 @@
+streamlit==1.16.0
+pandas==1.4.4
+pandas_profiling==v3.6.2
+streamlit_pandas_profiling==0.1.3
+sklearn==0.0
+numpy==1.21.5
